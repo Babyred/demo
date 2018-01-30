@@ -1,0 +1,69 @@
+html,body {
+  height: 100%;
+  background: #1b1b1b;
+}
+
+.border-left {
+  height: 2.4rem;
+  border-left: 1px solid #1b1b1b;
+  display: inline-block;
+  margin:0  0.25rem;
+}
+
+.briefing-box {
+  margin-left: 5%;
+  margin-top: 10%;
+  width: 90%;
+  background: #ffffff;
+  border-radius: 0.8rem;
+}
+
+.title {
+  margin: 3rem 1rem;
+  border-top: 3rem solid transparent;
+  font-size: 2rem;
+  color: #93c78f
+}
+
+.content {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.number
+,.contacts,
+.business-num,
+.change,
+.visitor,
+.sale {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.item {
+  flex-basis: 50%;
+  margin-bottom: 1rem;
+}
+
+.item i {
+  font-size: 2.4rem;
+  color: #93c78f;
+}
+
+.item span {
+  font-size: 2.4rem;
+  color: #313131;
+  font-weight: normal !important;
+}
+
+.item p {
+  padding-left: 3.4rem;
+  font-size: 1.2rem; 
+}
+
+
+
+
